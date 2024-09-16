@@ -1,6 +1,6 @@
 import react, { useState, lazy, Suspense } from 'react'
 import './App.css'
-import Login from './components/login.jsx'
+import Login from './components/Login.jsx'
 import Tasks from './components/Tasks.jsx'
 import Header from './components/Header.jsx'
 import Register from './components/Register.jsx'
