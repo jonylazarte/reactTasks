@@ -18,7 +18,7 @@ export default function Taskform({lastId, handleUpdate}){
     	fetch(`${API_URL}tasks`, {
             method: "POST",
             headers: {
-                "Content-Type" : "application/json"
+                "Content-Type" : "application/json", Autorization: localStorage.getItem("userID")
             },
             body: JSON.stringify({
                     title : values.title,
@@ -31,7 +31,7 @@ export default function Taskform({lastId, handleUpdate}){
                     userName: localStorage.getItem('userName'),  
                     teamID: localStorage.getItem('teamID')
             })
-        }).then(response => response.json()).then(data => console.log(data))
+        }).then(response => response.json()).then(data => handleUpdate())
 }
     const validationSchema = ()=>
     	Yup.object().shape({
