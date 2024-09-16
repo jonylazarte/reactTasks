@@ -1,0 +1,54 @@
+
+.FormularioLogin{
+	display:flex;
+	flex-direction: column;
+    justify-content: space-between;
+	border-radius: 5px;
+	height: 500px;
+	padding-bottom: 10px;
+	text-align:center;
+	align-self: center;
+	color: white;
+}
+.FormularioLogin h2{
+	text-align: initial;
+}
+.FormularioLogin div{
+	display:flex;
+	flex-direction: column;
+}
+.FormularioLogin label{
+	text-align: initial;
+	display:block;
+}
+.FormularioLogin button{
+    	margin-top:10px;
+    	width:40%;
+    	align-self: center;
+    }
+
+@media (min-width: 550px){
+
+	.FormularioLogin{
+	width: 400px;
+	border: solid 1px black;
+	border-radius: 5px;
+	height: 500px;
+	padding: 10px 10px;
+	text-align:center;
+	align-self: center;
+}
+    .FormularioLogin label{
+	text-align: initial;
+	display:block;
+}
+    .FormularioLogin button{
+     margin-top:10px;
+     width:40%;
+     align-self: center;
+    }
+    #root{
+    	display: flex;
+    	flex-direction: column;
+    }
+}

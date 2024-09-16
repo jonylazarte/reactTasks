@@ -1,0 +1,13 @@
+{"status code": 200,
+"message" : "OK",
+"result": {
+	"continente" : [
+		"America", "Europa", "Otro"
+	],
+	"region" : [
+		"Latam", "Brazil", "America del Norte", "Otro"
+	],
+	"rol" : [
+		"Team Member", "Team Lider"
+	]
+}}
