@@ -66,7 +66,7 @@ export default function Tasks(){
 				</div>		
 				
 				{isPhone ? (
-						CONSOLE.LOG("isPhone")
+						console.log("isPhone")
 						): (
 				<div className="list_pc">
 					<div className="status"><h2>Nuevas</h2>{renderTasks("New")}</div>
